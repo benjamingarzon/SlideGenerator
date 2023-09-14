@@ -1,0 +1,53 @@
+\documentclass{beamer}
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  \usetheme{default}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+
+\setbeamertemplate{sidebar right}{}
+\setbeamertemplate{footline}{%
+\hfill\usebeamertemplate***{navigation symbols}
+\hspace{1cm}\insertframenumber{}/\inserttotalframenumber}
+
+\title[$TITLE]{$TITLE}
+\author{Benjamín Garzón}
+\institute{Institute of Education, UZH}
+\date{2023}
+
+\begin{document}
+
+\begin{frame}
+  \begin{tikzpicture}[overlay,remember picture]
+    \node[left=1.5cm] at (current page.30){
+    \includegraphics[width=10cm]{figs/UZH_logo_full.jpg}
+};
+  \end{tikzpicture}
+  \vspace{1cm}
+    \titlepage
+\end{frame}
+
+% Uncomment these lines for an automatically generated outline.
+%\begin{frame}{Outline}
+%  \tableofcontents
+%\end{frame}
+
+%\section{Introduction}
+
+$MAINTEXT
+
+\end{document}
