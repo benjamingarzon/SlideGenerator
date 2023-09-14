@@ -1,0 +1,1 @@
+Generate Beamer slides from Word document
