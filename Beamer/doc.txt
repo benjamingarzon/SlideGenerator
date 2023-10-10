@@ -19,15 +19,17 @@
 \usepackage[T1]{fontenc}
 \usepackage{tikz}
 
+\renewcommand*\footnoterule{}
+
 \setbeamertemplate{sidebar right}{}
 \setbeamertemplate{footline}{%
 \hfill\usebeamertemplate***{navigation symbols}
-\hspace{1cm}\insertframenumber{}/\inserttotalframenumber}
+\hspace{1cm}\insertframenumber{}/\inserttotalframenumber\,}
 
 \title[$TITLE]{$TITLE}
 \author{Benjamín Garzón}
 \institute{Institute of Education, UZH}
-\date{2023}
+\date{Fall 2023}
 
 \begin{document}
 
