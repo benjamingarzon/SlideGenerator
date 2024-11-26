@@ -18,6 +18,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{tikz}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\mathtoolsset{showonlyrefs} 
 
 \renewcommand*\footnoterule{}
 
@@ -28,15 +32,16 @@
 
 \title[$TITLE]{$TITLE}
 \author{Benjamín Garzón}
+% \\ \footnotesize{benjamin.garzon@ife.uzh.ch}
 \institute{Institute of Education, UZH}
-\date{Fall 2023}
+\date{Fall 2024}
 
 \begin{document}
 
 \begin{frame}
   \begin{tikzpicture}[overlay,remember picture]
-    \node[left=1.5cm] at (current page.30){
-    \includegraphics[width=10cm]{figs/UZH_logo_full.jpg}
+    \node[left=3.5cm] at (current page.30){
+    \includegraphics[width=5cm]{figs/UZH_logo_center.jpg}
 };
   \end{tikzpicture}
   \vspace{1cm}
